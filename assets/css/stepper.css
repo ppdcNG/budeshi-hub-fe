@@ -1,0 +1,42 @@
+.stepwizard-step p {
+  margin-top: 10px;
+  margin-left: -2em;
+}
+
+.stepwizard-row {
+  display: table-row;
+}
+
+.stepwizard {
+  display: table;
+  width: 50%;
+  position: relative;
+}
+
+.stepwizard-row:before {
+  top: 20px;
+  bottom: 0;
+  left: 10%;
+  position: absolute;
+  content: " ";
+  width: 65%;
+  height: 1px;
+  background-color: #BBC7CD;
+}
+
+.stepwizard-step {
+  display: table-cell;
+  padding-left: 30px;
+  text-align: left;
+  /* position: relative; */
+}
+
+.btn-circle {
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+}
