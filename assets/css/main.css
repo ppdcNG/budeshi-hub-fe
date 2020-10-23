@@ -72,10 +72,31 @@ html, body {
 /* Buttons */
 
 /* Card */
-
 .radius--lg {
   border-radius: 40px;
 }
+/* Card */
+
+/* Brush Paint */
+  .z-index5-absolute {
+    z-index:5;
+    position: absolute;
+  }
+  .z-index3-relative {
+    z-index:3;
+    position:relative;
+    opacity: 0.7;
+  }
+  .ml-l {
+    margin-left: 5.5em;
+  }
+  .ml-m {
+    margin-left: 5em;
+  }
+  .ml-s {
+    margin-left: 2em;
+  }
+/* Brush Paint */
 
 #image-section .card {
   background-color: transparent;
@@ -189,7 +210,8 @@ h1, h2, h3, h4, h5, h6 {
     height: 200px;
     width: 150px;
   }
-  #section2 .column {
+  #section2 .column,
+  #section4 .column {
     flex: 50%;
   }
   .main-sub-txt .column {
@@ -226,6 +248,21 @@ h1, h2, h3, h4, h5, h6 {
   #project-section2 .badge {
     padding: auto 0 !important;
   }
+
+  .ml-l {
+    margin-left: 7.5em;
+  }
+  .ml-m {
+    margin-left: 7em;
+  }
+  .ml-s {
+    margin-left: 5em;
+  }
+  #join-us-svg {
+    width: 2.2em !important;
+    margin-left: 5em !important;
+  }
+
   /* Project Details */
   /* #document-section .card {
     background-color: rebeccapurple;
@@ -241,6 +278,10 @@ h1, h2, h3, h4, h5, h6 {
   }
   #desktop-svg-image {
     display: none;
+  }
+  #join-us-svg {
+    width: 2.2em !important;
+    margin-left: 2em !important;
   }
 }
 @media screen and (max-width: 600px) {
@@ -275,5 +316,29 @@ h1, h2, h3, h4, h5, h6 {
     margin: 2px;
     border: 2px solid white;
     box-sizing: border-box;
+  }
+  .ml-l {
+    margin-left: 3em;
+  }
+  .ml-m {
+    margin-left: 2em;
+  }
+  .ml-s {
+    margin-left: 2em;
+  }
+  #join-us-svg {
+    width: 2.2em !important;
+    margin-left: 2em !important;
+  }
+}
+@media screen and (max-width: 320px) {
+  .ml-l {
+    margin-left: 1em;
+  }
+  .ml-m {
+    margin-left: 0.3em;
+  }
+  .ml-s {
+    margin-left: 2em;
   }
 }
