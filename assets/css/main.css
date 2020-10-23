@@ -124,7 +124,7 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--main-blue-color);
 }
 
-/* PROJECTS PAGE */
+/* Projects Page */
 
 #project-section1 svg {
   margin-top: -1.5em;
@@ -144,6 +144,17 @@ h1, h2, h3, h4, h5, h6 {
 #cso-header-graphics, #pd-header-graphics {
   margin-top: -5em;
   margin-bottom: 2.5em;
+}
+
+/* Project Details */
+.main-sub-txt .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-sub-txt .column {
+  flex: 30%;
+  padding: 20px;
 }
 
 /* Media Queries */
@@ -180,6 +191,13 @@ h1, h2, h3, h4, h5, h6 {
   }
   #section2 .column {
     flex: 50%;
+  }
+  .main-sub-txt .column {
+    flex: 40%;
+  }
+  .main-sub-txt .column img {
+    display: block;
+    float: none !important;
   }
   #section3 svg {
     margin-top: 5vh;
@@ -234,6 +252,13 @@ h1, h2, h3, h4, h5, h6 {
   }
   #sub-header-txt div {
     padding-left: 1em;
+  }
+
+  #pd-sub-header-txt1,
+  #pd-sub-header-txt2 {
+    background-color: salmon;
+    display: inline-block !important;
+    width: 50vw !important;
   }
 
   #section5 .col1 button {
