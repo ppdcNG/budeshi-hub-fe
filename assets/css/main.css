@@ -116,6 +116,10 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 3vh;
 }
 
+#section3 h3, #section3 p {
+  text-align: center;
+}
+
 #section4 h1 {
   color: var(--main-blue-color);
 }
@@ -184,6 +188,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: -2em !important;
     margin-left: -1.5em !important;
   }
+
   #section4 h3>sup>svg {
     margin-top: -1.5em !important;
     float: left;
@@ -210,6 +215,9 @@ h1, h2, h3, h4, h5, h6 {
   } */
 }
 @media screen and (max-width: 740px) {
+  #section3 h3, #section3 p {
+    text-align: left;
+  }
   #mobile-svg-image {
     display: block !important;
   }
