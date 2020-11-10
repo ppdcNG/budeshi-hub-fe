@@ -73,7 +73,7 @@ html, body {
 
 /* Card */
 .radius--lg {
-  border-radius: 40px;
+  border-radius: 15px;
 }
 /* Card */
 
@@ -176,6 +176,14 @@ h1, h2, h3, h4, h5, h6 {
 .main-sub-txt .column {
   flex: 30%;
   padding: 20px;
+}
+
+.card-footer {
+  background-color: #fff;
+  border-top: none;
+}
+.card-footer .footer-txt-lg {
+  font-size: x-large;
 }
 
 /* Media Queries */
